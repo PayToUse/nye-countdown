@@ -4,6 +4,7 @@ body {
   text-align: center;
   color: #FFFFFF;
   font-size: 15pt;
+  font-family: "Fredoka One";
 }
 
 sm {
@@ -63,4 +64,9 @@ h2 {
     text-shadow: 0 0 5px #000, 0 0 25px #000;
     color: #000;
   }
+}
+
+@font-face {
+  font-family: "Fredoka One";
+  src: url(FredokaOne-Regular.ttf);
 }
