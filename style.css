@@ -38,16 +38,16 @@ h2 {
 
 @keyframes yellowfade {
   0% {
-    text-shadow: 0 0 5px #BFBF00, 0 0 25px #BFBF00;
-    color: #BFBF00;
+    text-shadow: 0 0 5px #DFDF00, 0 0 25px #DFDF00;
+    color: #DFDF00;
   }
   50% {
     text-shadow: 0 0 5px #FFFF00, 0 0 25px #FFFF00;
     color: #FFFF00;
   }
   100% {
-    text-shadow: 0 0 5px #BFBF00, 0 0 25px #BFBF00;
-    color: #BFBF00;
+    text-shadow: 0 0 5px #DFDF00, 0 0 25px #DFDF00;
+    color: #DFDF00;
   }
 }
 
@@ -57,12 +57,21 @@ h2 {
     color: #000;
   }
   50% {
-    text-shadow: 0 0 5px #3F3F00, 0 0 25px #3F3F00;
-    color: #3F3F00;
+    text-shadow: 0 0 5px #202000, 0 0 25px #202000;
+    color: #202000;
   }
   100% {
     text-shadow: 0 0 5px #000, 0 0 25px #000;
     color: #000;
+  }
+}
+
+@keyframes timer {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
   }
 }
 
